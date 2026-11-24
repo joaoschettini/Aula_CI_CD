@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "JOAOSCHETTINI_CI_CD",
+    "slug": "joaoschettinicicd",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.joaoschettini.cicd",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.joaoschettini.cicd",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4e12f2c5-9c6b-424a-918f-9094a543e511"
+      }
+    },
+    "owner": "joaoschettinis-team"
+  }
+}
